@@ -18,7 +18,7 @@ body {
 
 .flex-container {
     display: flex;
-     
+    justify-content: center; 
 }
   
 .flex-container > div {
@@ -29,10 +29,43 @@ body {
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    box-shadow: 0 1px 10px #000000;
         
 }
 
-.number {
+.flex-container .red {
+    background-color: #fddfdf;
+}
+
+.flex-container .orange {
+    background-color: #f8d5a3;
+}
+
+.flex-container .green {
+    background-color: #98d7a5;
+}
+
+.flex-container .white {
+    background-color: #f5f5f5;
+}
+
+.flex-container .rose {
+    background-color: #fcf7de;
+}
+
+.flex-container .darkp {
+    background-color: #f4e7da;
+}
+
+.flex-container .brown {
+    background-color: #e6e0d4;
+}
+
+.flex-container .yellow {
+    background-color: #eaeda1;
+}
+
+.number-grass {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     text-align: center;
@@ -42,12 +75,141 @@ body {
     width: 50px;
     height: 25px;
     margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-fire {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    background-color: #e3c8c8;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-water {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    background-color: #c7dae3;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-bug {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    background-color: #e7c697;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-poison {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    background-color: #89c194;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-flying {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    background-color: #dedede;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-electric {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    background-color: #e9e4cd;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-ground {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    background-color: #ddd1c6;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-fighting {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    background-color: #cfc9be;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-psychic {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    background-color: #d2d591;
+    border-radius: 5px;
+    width: 50px;
+    height: 25px;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .pokemon-name {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
+
 }
 
 .pokemon-type {
